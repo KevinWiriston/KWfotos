@@ -391,7 +391,7 @@ select {
 }
 
 .bootstrap-select.btn-group .dropdown-menu.inner {
-    position: static; *
+    position: static; 
     float: none;
     border: 0;
     padding: 0;
@@ -622,11 +622,12 @@ html, body {
 .img-res {
     display: block;
     width: 100vw;
-    height: 100vh;
+/*     height: 100vh; */
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
 }
+
 
 /* Background colors */
 .gray-bg {
@@ -650,7 +651,7 @@ html, body {
 
 /* Site-logo */
 .site-title {
-    font-size: 18px;
+    font-size: 36px;
     line-height: 26px;
     color: #26272d;
 }
@@ -874,7 +875,7 @@ html, body {
 }
 
 .portfolio-hero {
-    background: url(../img/portfolio-hero.jpg) no-repeat center / cover;
+    background: url(../img/ensaios/mariana/cabecalho.jpg) no-repeat center / cover;
 }
 
 .blog-hero {
@@ -1272,7 +1273,7 @@ a.linkedin-bg:hover {
  * Portfolio-item
  */
 .project-img {
-    height: 480px;
+    height: auto;
 }
 
 .project-img + .project-img  {

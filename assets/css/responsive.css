@@ -516,7 +516,7 @@
 	 * Project item
 	 */
 	.project-img {
-		height: 240px;
+		height: auto;
 	}
 
 	.project-img + .project-img {
