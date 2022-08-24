@@ -167,7 +167,7 @@ if($('#map').length >0 ) {
       // Basic options for a simple Google Map
       // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
       // var myLatlng = new google.maps.LatLng(40.71751, -73.990922);
-      var myLatlng = new google.maps.LatLng(40.69847032728747, -73.9514422416687);
+      var myLatlng = new google.maps.LatLng(-20.7579709505596, -41.54053337562841);
 
       var mapOptions = {
           // How zoomed in you want the map to start at (always required)
@@ -184,7 +184,7 @@ if($('#map').length >0 ) {
       var mapElement = document.getElementById('map');
       // Create the Google Map using out element and options defined above
       var map = new google.maps.Map(mapElement, mapOptions);
-      var addresses = ['Brooklyn'];
+      var addresses = ['Alegre'];
       for (var x = 0; x < addresses.length; x++) {
           $.getJSON('http://maps.googleapis.com/maps/api/geocode/json?address='+addresses[x]+'&sensor=false', null, function (data) {
               var p = data.results[0].geometry.location
